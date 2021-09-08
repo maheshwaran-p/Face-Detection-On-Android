@@ -31,6 +31,7 @@ class _FaceDetectionFromImageState extends State<FaceDetectionFromImage> {
     });
   }
 
+  bool start = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
